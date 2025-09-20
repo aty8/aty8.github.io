@@ -6,6 +6,9 @@ highlighter: rouge
 excerpt_separator: <!--more-->
 gems:
   - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 kramdown:
   input: GFM
   auto_ids: true
