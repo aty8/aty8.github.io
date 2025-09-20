@@ -1,3 +1,12 @@
 theme: jekyll-theme-minimal
 title: Andrii's homepage
 description: Bookmark this to keep an eye on my project updates!
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+gems:
+  - jekyll-feed
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
